@@ -324,7 +324,7 @@ GameObject:
   - component: {fileID: 177676446}
   - component: {fileID: 177676445}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 179546544}
   - component: {fileID: 179546543}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -558,7 +558,7 @@ GameObject:
   - component: {fileID: 404005837}
   - component: {fileID: 404005839}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Ok
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -794,7 +794,7 @@ GameObject:
   - component: {fileID: 447484550}
   - component: {fileID: 447484552}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ExitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1025,7 +1025,7 @@ GameObject:
   - component: {fileID: 786270580}
   - component: {fileID: 786270579}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1243,7 +1243,7 @@ GameObject:
   - component: {fileID: 1094963484}
   - component: {fileID: 1094963483}
   m_Layer: 5
-  m_Name: Image
+  m_Name: PlayButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1374,7 +1374,7 @@ GameObject:
   - component: {fileID: 1255811927}
   - component: {fileID: 1255811926}
   m_Layer: 5
-  m_Name: Text
+  m_Name: EndScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2054,7 +2054,7 @@ GameObject:
   - component: {fileID: 2135346204}
   - component: {fileID: 2135346203}
   m_Layer: 5
-  m_Name: Image
+  m_Name: GameOver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2153,13 +2153,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 33953876}
   velocity: 1.4
-  moveRotation: 0
-  force: 0.5
   audioSource: {fileID: 2146816669}
   volume: 0.01
-  clip: {fileID: 8300000, guid: 79df84d519e43d747b51f6fbec8271f1, type: 3}
-  hit: {fileID: 8300000, guid: e6bf043717a8da14b994f23a6daec1f7, type: 3}
-  point: {fileID: 8300000, guid: 95f86b1775dbcee4786a95048ae99eb5, type: 3}
+  wingSound: {fileID: 8300000, guid: 79df84d519e43d747b51f6fbec8271f1, type: 3}
+  hitSound: {fileID: 8300000, guid: e6bf043717a8da14b994f23a6daec1f7, type: 3}
+  pointSound: {fileID: 8300000, guid: 95f86b1775dbcee4786a95048ae99eb5, type: 3}
   scoreCount: 0
   text: {fileID: 179546543}
   endScore: {fileID: 1255811926}
